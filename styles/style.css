@@ -1,8 +1,12 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 .gradient-color img {
     filter: brightness(0.5);
     height: 500px;
 }
 
 .six-course-headline {
-    width: 500px;
+    width: 580px;
 }
