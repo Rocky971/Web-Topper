@@ -27,10 +27,6 @@ body {
     position: relative;
 }
 
-/* i.fa-solid.fa-circle-chevron-left {
-    font-size: 38px;
-    position: absolute;
-    margin-top: 115px;
-    margin-left: -21px;
-    color: #009aff;
-} */
+.logo-img-width {
+    width: 130px;
+}
