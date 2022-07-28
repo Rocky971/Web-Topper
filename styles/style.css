@@ -14,3 +14,23 @@ body {
 .custom-width {
     margin-left: -12px;
 }
+
+.star-color {
+    color: gold;
+}
+
+.coma-width {
+    width: 50px;
+}
+
+.positon-change {
+    position: relative;
+}
+
+/* i.fa-solid.fa-circle-chevron-left {
+    font-size: 38px;
+    position: absolute;
+    margin-top: 115px;
+    margin-left: -21px;
+    color: #009aff;
+} */
