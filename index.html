@@ -118,7 +118,8 @@
         <section class="mt-5">
             <div class="mb-5">
                 <div class="six-course-headline m-auto sm-py-5 text-center">
-                    <h2 class="fw-bold sm">Discover Our Popular <br class="d-md-none d-sm-none"> <span>Courses</span>
+                    <h2 class="fw-bold sm">Discover Our Popular <br class="d-md-none d-sm-none">
+                        <span>Courses</span>
                     </h2>
                     <p class="fs-6">It is a established fact that a reader will be distracted by the readable content of
                         a page when looking at its layout.</p>
@@ -305,7 +306,46 @@
                         when looking at its layout.</p>
                 </div>
                 <div class="p-5 pb-sm-4 pt-sm-0 pb-lg-0">
-                    <button class="btn btn-light text-primary fw-bold fs-6 py-2 px-4">Register Now</button>
+                    <!-- <button class="btn btn-light text-primary fw-bold fs-6 py-2 px-4">Register Now</button> -->
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-light text-primary fw-bold fs-6 py-2 " data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Register Now
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Register Now</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="mb-3 row">
+                                        <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" readonly class="form-control-plaintext" id="staticEmail">
+                                            <input type="email" class="form-control" id="staticEmail">
+                                        </div>
+                                    </div>
+                                    <div class="mb-3 row">
+                                        <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                                        <div class="col-sm-10">
+                                            <input type="password" class="form-control" id="inputPassword">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
